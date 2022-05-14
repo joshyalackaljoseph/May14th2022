@@ -1,0 +1,10 @@
+com\sg\methods\TaskModuleMethods.class
+com\sg\methods\AppDependentMethods.class
+com\sg\methods\UserModuleMethods.class
+com\sg\testScripts\UserModuleScripts.class
+com\sg\driver\DriverScript.class
+com\sg\methods\Datatable.class
+com\sg\methods\AppIndependentMethods.class
+com\sg\locators\ObjectLocators.class
+com\sg\reports\ReportUtils.class
+com\sg\testScripts\TestModuleScripts.class

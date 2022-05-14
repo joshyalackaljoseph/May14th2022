@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="41318" started-at="2022-05-14T13:49:47 IST" finished-at="2022-05-14T13:50:29 IST">
+    <groups>
+    </groups>
+    <test name="Execute Test" duration-ms="41318" started-at="2022-05-14T13:49:47 IST" finished-at="2022-05-14T13:50:29 IST">
+      <class name="com.sg.driver.DriverScript">
+        <test-method status="PASS" signature="loadClassFile()[pri:0, instance:com.sg.driver.DriverScript@2286778]" name="loadClassFile" is-config="true" duration-ms="159" started-at="2022-05-14T13:49:47 IST" finished-at="2022-05-14T13:49:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadClassFile -->
+        <test-method status="PASS" signature="runTestScripts(java.util.Map)[pri:0, instance:com.sg.driver.DriverScript@2286778]" name="runTestScripts" duration-ms="5731" started-at="2022-05-14T13:49:48 IST" data-provider="testData" finished-at="2022-05-14T13:49:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExecuteTest=Yes, Status=PASS, ClassName=com.sg.testScripts.UserModuleScripts, TestCaseID=SRS_101, ScriptName=TS_loginLogout}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestScripts -->
+        <test-method status="PASS" signature="runTestScripts(java.util.Map)[pri:0, instance:com.sg.driver.DriverScript@2286778]" name="runTestScripts" duration-ms="10395" started-at="2022-05-14T13:49:54 IST" data-provider="testData" finished-at="2022-05-14T13:50:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExecuteTest=Yes, Status=PASS, ClassName=com.sg.testScripts.UserModuleScripts, TestCaseID=SRS_102, ScriptName=TS_CreateAndDeleteUser}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestScripts -->
+        <test-method status="PASS" signature="runTestScripts(java.util.Map)[pri:0, instance:com.sg.driver.DriverScript@2286778]" name="runTestScripts" duration-ms="24653" started-at="2022-05-14T13:50:04 IST" data-provider="testData" finished-at="2022-05-14T13:50:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ExecuteTest=Yes, Status=PASS, ClassName=com.sg.testScripts.UserModuleScripts, TestCaseID=SRS_103, ScriptName=TS_VerifyLoginWithNewUser_DeleteUser}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestScripts -->
+      </class> <!-- com.sg.driver.DriverScript -->
+    </test> <!-- Execute Test -->
+  </suite> <!-- testSuite -->
+</testng-results>
